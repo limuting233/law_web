@@ -1,0 +1,55 @@
+# macOS
+.DS_Store
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node / Vue / Vite
+node_modules/
+dist/
+dist-ssr/
+.vite/
+coverage/
+*.local
+
+# Python / FastAPI / uv
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+*.egg-info/
+
+# Database and local storage
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploads and runtime files
+uploads/
+tmp/
+temp/
